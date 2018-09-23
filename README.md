@@ -1,6 +1,6 @@
 # Nature's Gift
 
-This project showcases a beautiful photo gallery built purely with HTML5, CSS3, and JavaScript - no frameworks or libraries where used. All images are credited to [https://unsplash.com](https://unsplash.com).
+This project showcases a beautiful photo gallery built with HTML5, CSS3, and jQuery. All images are credited to [https://unsplash.com](https://unsplash.com).
 
 ## Follow Me On Other Social Platforms
 
@@ -15,7 +15,8 @@ This project showcases a beautiful photo gallery built purely with HTML5, CSS3, 
 
 ## Built With
 
-* [Unsplash](https://www.unsplash.com) - photos
+* [Unsplash](https://www.unsplash.com) - Photos
+* [jQuery](https://jquery.com/) - JavaScript Library
 
 ## Contributing
 
