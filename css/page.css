@@ -1,72 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: arial, sans-serif;
   background: white;
 }
 
-ul  {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 #page-wrapper {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: auto;
 }
 
 aside {
-  position: fixed;
-  width: 260px;
-  height: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
   text-align: center;
 }
 
 #nature-quote {
   padding: 0 35px;
   color: #5ABDB3;
-  font-family: cursive;
+  font-family: 'Bad Script', cursive;
+  font-size: 1.2em;
 }
 
 #logo {
   margin: 35px auto 15px auto;
-  width: 160px;
+  width: 120px;
   height: auto;
 }
 
 main {
-  margin-left: 260px;
-  padding: 35px auto;
+  padding: 0 auto;
 }
 
+/* large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  aside {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    text-align: center;
+  }
 
-/* Extra small devices */
-@media (max-width: 575.98px) {
+  #nature-quote {
+    padding: 0 35px;
+    color: #5ABDB3;
+    font-family: cursive;
+  }
 
-}
+  #logo {
+    margin: 35px auto 15px auto;
+    width: 160px;
+    height: auto;
+  }
 
-/* Small devices */
-@media (max-width: 767.98px) {
-
-}
-
-/* Medium devices */
-@media (max-width: 991.98px) {
-
-}
-
-/* Large devices */
-@media (max-width: 1199.98px) {
-
+  main {
+    margin-left: 240px;
+    padding: 35px auto;
+  }
 }
