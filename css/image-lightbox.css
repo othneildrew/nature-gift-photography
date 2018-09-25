@@ -63,7 +63,7 @@
 @media (min-width: 992px) {
 
   #image-lightbox {
-    /* visibility: hidden; visibility hidden by default and toggled with javascript */
+    visibility: hidden; /* visibility hidden by default and toggled with javascript */
     position: fixed;
     top: 0;
     right: 0;
@@ -87,6 +87,22 @@
     width: 75%;
     height: auto;
     padding: 50px;
+  }
+
+  #hide-lightbox {
+    margin-bottom: 0px;
+    width: 100%;
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+
+  #hide-lightbox a {
+    color: black;
+  }
+
+  #hide-lightbox a:hover {
+    border-radius: 50%;
+    border: 2px solid black;
   }
 
   #image-lightbox img {
